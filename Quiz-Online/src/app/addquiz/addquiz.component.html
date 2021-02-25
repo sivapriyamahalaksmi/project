@@ -1,0 +1,36 @@
+<div align="center" style="font-size: larger;">
+    <h4 style="text-decoration: underline;">Add User</h4>
+    <div >
+        <h1> Kindly fill the Question and answers for Quiz</h1>
+    </div>
+    <table border="0px" >
+                <tr>
+            <td>Enter Question Name</td>
+            <td><input type="text" [(ngModel)]="quiz.qa"></td>
+        </tr>
+        <tr>
+            <td>Enter Option 1</td>
+            <td><input type="text" [(ngModel)]="quiz.aw1"></td>
+        </tr>
+        <tr>
+            <td>Enter Option 2</td>
+            <td><input type="text" [(ngModel)]="quiz.aw2"></td>
+        </tr>
+        <tr>
+            <td>Enter Option 3</td>
+            <td><input type="text" [(ngModel)]="quiz.aw3"></td>
+        </tr>
+        <tr>
+            <td>Enter Option 4</td>
+            <td><input type="text" [(ngModel)]="quiz.aw4"></td>
+        </tr>
+        <tr>
+            <td>Enter Answer</td>
+            <td><input type="text" [(ngModel)]="quiz.res"></td>
+        </tr>
+        
+    </table>
+       
+         <button (click)="addQuiz()">Add Quiz</button>
+</div>
+

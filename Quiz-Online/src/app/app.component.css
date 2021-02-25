@@ -1,0 +1,36 @@
+.quiz-portal-home-wrapper {
+    background-color: darkcyan;
+    height: 100vh;
+}
+
+.title-wrapper {
+    display: flex;
+}
+.quiz-portal-title {
+    color: darkred;
+    width: 80%;
+    margin: 30px;
+text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.login-register {
+    width: 20%;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.portal-link-login {
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.portal-link-register {
+    color: black;
+    font-size: 20px;
+}
